@@ -4,38 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
 </head>
 
 <body>
 
+    <h1 style="text-align: center; font-style: italic; color: white;">STOPWATCH ASSIGNMENT</h1>
+    <div class="main">
+        <div style="display: flex; gap: 20px;" class="UI">
+            <div>
+                <h1 id="minHeading">00</h1>
+                <p>min</p>
 
-    <div style="display: flex; gap: 20px;">
-        <div>
-            <h1 id="minHeading">00</h1>
-            <p>min</p>
+            </div>
+
+            <div>
+                <h1 id="secHeading">00</h1>
+                <p>sec</p>
+
+            </div>
+            <div>
+                <h1 id="msecHeading">00</h1>
+                <p>Msecs</p>
+
+            </div>
 
         </div>
-
-        <div>
-            <h1 id="secHeading">00</h1>
-            <p>sec</p>
-
+        <div class="buttons">
+            <button onclick="start()" id="btn">START</button>
+            <button onclick="stop()">STOP</button>
+            <button onclick="reset()">RESET</button>
         </div>
-        <div>
-            <h1 id="msecHeading">00</h1>
-            <p>Msecs</p>
-
-        </div>
-
     </div>
-    <div>
-        <button onclick="start()" id="btn">START</button>
-        <button onclick="stop()">STOP</button>
-        <button onclick="reset()">RESET</button>
-    </div>
-
-
+<h1 style="text-align: center; font-style: italic; color: white;">ThankYou &#128512</h1>
 
 
 
